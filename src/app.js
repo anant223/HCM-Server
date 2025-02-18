@@ -1,6 +1,7 @@
-const env = require("env")
 const express = require("express")
 const app = express()
+const cookieParser = require("cookies-parser");
+
 
 app.use(
     cours({
